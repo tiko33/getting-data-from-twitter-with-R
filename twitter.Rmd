@@ -19,10 +19,10 @@ library(wordcloud)
 ```
 #twitter authentication
 ```{r echo=FALSE}
-consumerKey <- "tT7e2vSIAv8mzOFjKnedhau0D"
-consumerSecret <- "PWgfDoG24U7VUiFCHnLarNz0RmQbjPEofywxxOHcp1eOI6dotI"
-accessToken <- "2608779027-8NQT6mu3Kf8hwKZTAuPr9ua3wpS43cs02UqeMWZ"
-accessTokenSecret <- "V3jfYIVnbztp9OlbLlDUOTz2bRNJrOMBLe3D3Old6JVpb"
+consumerKey <- "your consumerKey"
+consumerSecret <- "your consumerSecret"
+accessToken <- "your accessToken"
+accessTokenSecret <- "your accessTokenSecret"
 ```
 ```{r}
 twitteR::setup_twitter_oauth(consumerKey,consumerSecret,accessToken,accessTokenSecret)
